@@ -1,0 +1,23 @@
+{
+  "name": "qaautomationandmanual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nassarahmad/qaautomationandmanual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nassarahmad/qaautomationandmanual/issues"
+  },
+  "homepage": "https://github.com/nassarahmad/qaautomationandmanual#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0"
+  }
+}
