@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('OrangeHRM CodeGen', async ({ page }) => {
-  await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+  await page.goto('https://opensource-demo.orangehrmlive.com/');
   await page.getByText('Username : Admin').click();
   await page.getByText('Password : admin123').click();
   await page.getByText('Username', { exact: true }).click();

@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 
 test('OrangeHRM Locators', async ({ page }) => {
-  await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+  await page.goto('https://opensource-demo.orangehrmlive.com/');
   await page.getByLabel("Password");
   console.log(await page.getByLabel("password"));
   await page.getByPlaceholder("Username").fill("Admin");
